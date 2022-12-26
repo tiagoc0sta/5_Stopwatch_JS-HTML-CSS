@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StopWatch</title>
+    <title>Stopwatch</title>
   </head>
   <style>
     * {
@@ -90,15 +90,16 @@
         if (tens > 9) {
           appendTens.innerHTML = tens;
         }
+
         if (tens > 99) {
-          second++;
+          seconds++;
           appendSeconds.innerHTML = "0" + seconds;
           tens = 0;
           appendTens.innerHTML = "0" + 0;
         }
 
         if (seconds > 9) {
-          appenSeconds.innerHTML = seconds;
+          appendSeconds.innerHTML = seconds;
         }
 
         if (seconds > 59) {
@@ -125,7 +126,7 @@
         minutes = "00";
         appendTens.innerHTML = tens;
         appendSeconds.innerHTML = seconds;
-        appendMinutes.innerHTML = minutes;
+        appendMinutes.innerHMTL = minutes;
       };
     };
   </script>
