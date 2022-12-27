@@ -8,7 +8,6 @@ Technologies used:
 
 ## Acknowledgements
 
-- [ Figma Project - link here ](https://www.youtube.com/watch?v=AAXYX4LH6Bc&t=298s)
 
 - To run:
 
